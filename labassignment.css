@@ -44,3 +44,40 @@ button{
     border: #4CAF50;
     border-radius: 2.5px;
 }
+.form{
+    background-color: antiquewhite;
+}
+.inputs {
+    text-align: left;
+    margin-top: 30px;
+}
+label, input, button {
+    display: ruby-base;
+    width: 30%;
+    padding: 0;
+    border: 1px;
+    outline: 1px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-bottom: 4px;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 0px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
